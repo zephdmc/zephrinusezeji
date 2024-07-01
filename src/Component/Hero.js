@@ -27,7 +27,7 @@ const Hero = () => {
     }, []);
 
   return (
-      <section id="hero"       className="h-screen bg-cover bg-center sm:mt-[10rem] md:mt-2  lg:mt-2 bg-no-repeat flex flex-col items-center justify-center text-white" 
+      <section id="hero" className="h-screen bg-cover bg-center sm:mt-[10rem] md:mt-2  lg:mt-2 bg-no-repeat flex flex-col items-center justify-center text-white" 
           style={{ backgroundImage: "url('/big.jpg')" }}>
    
       <h1 className="lg:text-8xl md:text-8xl  text-5xl  font-bold" data-aos="fade-up"
